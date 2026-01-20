@@ -1,0 +1,4 @@
+def openkernel {
+    py "subprocess.Popen([sys.executable, 'kernel.py'])"
+    echo "hello world!";
+};
